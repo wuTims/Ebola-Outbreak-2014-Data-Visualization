@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<% include head %>
+
+	<body id="vis" ng-app="ebolaApp">
+		<div id='main-nav'>
+				<ul>
+	   				<li><a href='/'><span>Home</span></a></li>
+	   			</ul>
+	   		</div>
+		<div ng-controller="VisualsCtrl as visCtrl">
+			
+			<h1 id="chart-head" class="row">
+				Ebola Outbreak 2014 Cases Charts
+			</h1>
+			
+			<div class="btn-container">
+				<button class="btn-visuals" ng-click="lineClicked=false">Monthly Reported Cases</button>
+				<button class="btn-visuals" ng-click="lineClicked=true">Total Reported Cases</button>
+			</div>
+			
+			<div class="line-container container" ng-show="lineClicked">
+				
+			</div>
+
+			<div class="bar-container container" ng-hide="lineClicked">
+				
+			</div>
+
+
+
+
+
+			<script src="js/line-visualization.js"></script>
+			<script src="js/bar-visualization.js"></script>
+
+		</div>
+
+		<footer>Data from <a href="http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html">http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html</a></footer>
+		
+	</body>
+
+</html>

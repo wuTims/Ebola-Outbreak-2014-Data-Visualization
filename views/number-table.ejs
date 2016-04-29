@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<% include head %>
+	
+	<body ng-app="ebolaApp">
+		<div id='main-nav'>
+				<ul>
+	   				<li><a href='/'><span>Home</span></a></li>
+	   			</ul>
+	   		</div>
+		<div class="container" ng-controller="NumberCtrl as numCtrl">
+			
+			<h1 id="table-head" class="row">
+				Ebola Outbreak 2014 Cases and Deaths
+			</h1>
+		
+
+			<div class="row">
+				<div class="col-xs-12">
+					<table class="table">
+						<tr>
+							<th class="no-bg" ng-click="numCtrl.order('$index')">Date</th>
+							<th ng-click="numCtrl.order('guinea_cases')">Guinea Cases</th>
+							<th ng-click="numCtrl.order('guinea_deaths')">Guinea Deaths</th>
+							<th ng-click="numCtrl.order('liberia_cases')">Liberia Cases</th>
+							<th ng-click="numCtrl.order('liberia_deaths')">Liberia Deaths</th>
+							<th ng-click="numCtrl.order('sierra_leone_cases')">Sierra Leone Cases</th>
+							<th ng-click="numCtrl.order('sierra_leone_deaths')">Sierra Leone Deaths</th>				
+						</tr>
+
+							
+						<tr ng-repeat="date in numCtrl.numbers | orderBy: numCtrl.sortOrder">
+							<td>{{ date.month }}-{{ date.year }}</td>
+							<td>{{ date.guinea_cases }}</td>
+							<td>{{ date.guinea_deaths }}</td>
+							<td>{{ date.liberia_cases }}</td>
+							<td>{{ date.liberia_deaths }}</td>
+							<td>{{ date.sierra_leone_cases }}</td>
+							<td>{{ date.sierra_leone_deaths }}</td>
+						</tr>
+
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<footer>Data from <a href="http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html">http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/cumulative-cases-graphs.html</a></footer>
+		
+		
+	</body>
+</html>

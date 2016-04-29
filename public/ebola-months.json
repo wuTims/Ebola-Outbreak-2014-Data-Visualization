@@ -1,0 +1,242 @@
+[
+  {
+    "month": "Mar",
+    "year": "2014",
+    "guinea_cases":112,
+    "guinea_deaths":70,
+    "liberia_cases":8,
+    "liberia_deaths":6,
+    "sierra_leone_cases":0,
+    "sierra_leone_deaths":0
+  },
+  {
+    "month": "Apr",
+    "year": "2014",
+    "guinea_cases":109,
+    "guinea_deaths":76,
+    "liberia_cases":5,
+    "liberia_deaths":5,
+    "sierra_leone_cases":0,
+    "sierra_leone_deaths":0
+  },
+  {
+    "month": "May",
+    "year": "2014",
+    "guinea_cases":60,
+    "guinea_deaths":40,
+    "liberia_cases":-1,
+    "liberia_deaths":-2,
+    "sierra_leone_cases":16,
+    "sierra_leone_deaths":5
+  },
+  {
+    "month": "Jun",
+    "year": "2014",
+    "guinea_cases":109,
+    "guinea_deaths":84,
+    "liberia_cases":39,
+    "liberia_deaths":25,
+    "sierra_leone_cases":142,
+    "sierra_leone_deaths":29
+  },
+  {
+    "month": "Jul",
+    "year": "2014",
+    "guinea_cases":70,
+    "guinea_deaths":69,
+    "liberia_cases":278,
+    "liberia_deaths":122,
+    "sierra_leone_cases":375,
+    "sierra_leone_deaths":199
+  },
+  {
+    "month": "Aug",
+    "year": "2014",
+    "guinea_cases":188,
+    "guinea_deaths":91,
+    "liberia_cases":1049,
+    "liberia_deaths":538,
+    "sierra_leone_cases":493,
+    "sierra_leone_deaths":189
+  },
+  {
+    "month": "Sep",
+    "year": "2014",
+    "guinea_cases":426,
+    "guinea_deaths":218,
+    "liberia_cases":2080,
+    "liberia_deaths":1136,
+    "sierra_leone_cases":995,
+    "sierra_leone_deaths":183
+  },
+  {
+    "month": "Oct",
+    "year": "2014",
+    "guinea_cases":593,
+    "guinea_deaths":370,
+    "liberia_cases":3077,
+    "liberia_deaths":583,
+    "sierra_leone_cases":3317,
+    "sierra_leone_deaths":905
+  },
+  {
+    "month": "Nov",
+    "year": "2014",
+    "guinea_cases":488,
+    "guinea_deaths":294,
+    "liberia_cases":1100,
+    "liberia_deaths":732,
+    "sierra_leone_cases":1771,
+    "sierra_leone_deaths":20
+  },
+  {
+    "month": "Dec",
+    "year": "2014",
+    "guinea_cases":552,
+    "guinea_deaths":396,
+    "liberia_cases":383,
+    "liberia_deaths":278,
+    "sierra_leone_cases":2337,
+    "sierra_leone_deaths":1228
+  },
+  {
+    "month": "Jan",
+    "year": "2015",
+    "guinea_cases":210,
+    "guinea_deaths":202,
+    "liberia_cases":604,
+    "liberia_deaths":263,
+    "sierra_leone_cases":1072,
+    "sierra_leone_deaths":441
+  },
+  {
+    "month": "Feb",
+    "year": "2015",
+    "guinea_cases":238,
+    "guinea_deaths":181,
+    "liberia_cases":616,
+    "liberia_deaths":351,
+    "sierra_leone_cases":783,
+    "sierra_leone_deaths":262
+  },
+  {
+    "month": "Mar",
+    "year": "2015",
+    "guinea_cases":274,
+    "guinea_deaths":172,
+    "liberia_cases":364,
+    "liberia_deaths":264,
+    "sierra_leone_cases":540,
+    "sierra_leone_deaths":286
+  },
+  {
+    "month": "Apr",
+    "year": "2015",
+    "guinea_cases":155,
+    "guinea_deaths":114,
+    "liberia_cases":720,
+    "liberia_deaths":307,
+    "sierra_leone_cases":530,
+    "sierra_leone_deaths":152
+  },
+  {
+    "month": "May",
+    "year": "2015",
+    "guinea_cases":57,
+    "guinea_deaths":43,
+    "liberia_cases":344,
+    "liberia_deaths":198,
+    "sierra_leone_cases":335,
+    "sierra_leone_deaths":9
+  },
+  {
+    "month": "Jun",
+    "year": "2015",
+    "guinea_cases":77,
+    "guinea_deaths":53,
+    "liberia_cases":0,
+    "liberia_deaths":0,
+    "sierra_leone_cases":353,
+    "sierra_leone_deaths":20
+  },
+  {
+    "month": "Jul",
+    "year": "2015",
+    "guinea_cases":68,
+    "guinea_deaths":47,
+    "liberia_cases":6,
+    "liberia_deaths":2,
+    "sierra_leone_cases":231,
+    "sierra_leone_deaths":23
+  },
+  {
+    "month": "Aug",
+    "year": "2015",
+    "guinea_cases":6,
+    "guinea_deaths":7,
+    "liberia_cases":0,
+    "liberia_deaths":0,
+    "sierra_leone_cases":251,
+    "sierra_leone_deaths":1
+  },
+  {
+    "month": "Sep",
+    "year": "2015",
+    "guinea_cases":8,
+    "guinea_deaths":5,
+    "liberia_cases":0,
+    "liberia_deaths":0,
+    "sierra_leone_cases":282,
+    "sierra_leone_deaths":3
+  },
+  {
+    "month": "Oct",
+    "year": "2015",
+    "guinea_cases":6,
+    "guinea_deaths":3,
+    "liberia_cases":0,
+    "liberia_deaths":0,
+    "sierra_leone_cases":238,
+    "sierra_leone_deaths":0
+  },
+  {
+    "month": "Nov",
+    "year": "2015",
+    "guinea_cases":-2,
+    "guinea_deaths":1,
+    "liberia_cases":3,
+    "liberia_deaths":0,
+    "sierra_leone_cases":61,
+    "sierra_leone_deaths":0
+  },
+  {
+    "month": "Dec",
+    "year": "2015",
+    "guinea_cases":0,
+    "guinea_deaths":0,
+    "liberia_cases":0,
+    "liberia_deaths":1,
+    "sierra_leone_cases":0,
+    "sierra_leone_deaths":0
+  },
+  {
+    "month": "Jan",
+    "year": "2016",
+    "guinea_cases":0,
+    "guinea_deaths":0,
+    "liberia_cases":0,
+    "liberia_deaths":0,
+    "sierra_leone_cases":2,
+    "sierra_leone_deaths":1
+  },
+  {
+    "month": "Feb",
+    "year": "2016",
+    "guinea_cases":0,
+    "guinea_deaths":0,
+    "liberia_cases":0,
+    "liberia_deaths":0,
+    "sierra_leone_cases":0,
+    "sierra_leone_deaths":0
+  }
+]
