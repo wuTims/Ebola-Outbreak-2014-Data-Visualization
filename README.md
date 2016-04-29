@@ -15,6 +15,7 @@ Node.js is required to run the application.
 
 # Running Instructions
 1. Use your Terminal or other CLI to **cd** to the top-level of the unzipped folder
+2. Run 'npm install' to install necessary dependencies from package.json
 <h2>Using Vagrant</h2>
     1. Enter your Vagrant machine
     2. cd /vagrant/name-of-project-folder
