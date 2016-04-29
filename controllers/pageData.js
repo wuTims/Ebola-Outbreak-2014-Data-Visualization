@@ -1,3 +1,5 @@
+//All export methods just to render ejs pages and handle GET requests
+
 exports.loadHome = function(req, res){
 	res.render('index');
 }
