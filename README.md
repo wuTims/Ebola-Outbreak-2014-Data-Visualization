@@ -29,3 +29,6 @@ NOTE: **For Terminal, the instructions should be similar, just minus the Vagrant
   1. Home page: '/'
   2. Number Table: '/numbers'
   3. D3 Visualizations: '/visuals'
+
+# Credits
+The data and image comes from http://www.cdc.gov/vhf/ebola/outbreaks/2014-west-africa/distribution-map.html
