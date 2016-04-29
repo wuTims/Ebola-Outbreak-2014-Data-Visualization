@@ -19,6 +19,7 @@
 				<div class="col-xs-12">
 					<table class="table">
 						<tr>
+							<!-- Will change list order of data if header is clicked -->
 							<th class="no-bg" ng-click="numCtrl.order('$index')">Date</th>
 							<th ng-click="numCtrl.order('guinea_cases')">Guinea Cases</th>
 							<th ng-click="numCtrl.order('guinea_deaths')">Guinea Deaths</th>
@@ -28,7 +29,8 @@
 							<th ng-click="numCtrl.order('sierra_leone_deaths')">Sierra Leone Deaths</th>				
 						</tr>
 
-							
+							<!-- Iterate through the data file and output data into table -->
+							<!-- Order is changed if one of the headers are clicked -->
 						<tr ng-repeat="date in numCtrl.numbers | orderBy: numCtrl.sortOrder">
 							<td>{{ date.month }}-{{ date.year }}</td>
 							<td>{{ date.guinea_cases }}</td>

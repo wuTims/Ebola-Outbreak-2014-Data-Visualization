@@ -1,5 +1,9 @@
 'use strict';
 
+/**
+* Main app
+* Modules for routing and animations
+**/
 (function(){
 	var app = angular.module('ebolaApp', ['ngRoute', 'ngAnimate']);
 	app.config(function ($routeProvider) {

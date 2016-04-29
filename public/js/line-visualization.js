@@ -1,12 +1,17 @@
+//Creates line chart
+
 var margin = {top: 20, right: 120, bottom: 30, left: 50},
 				    width = 1260 - margin.left - margin.right,
 				    height = 500 - margin.top - margin.bottom;
 
+				//Parses date into acceptable format
 				var parseDate = d3.time.format("%m/%d/%Y").parse;
 
+				//Scale for time
 				var x = d3.time.scale()
 				    .range([0, width]);
 
+				//Scale for values
 				var y1 = d3.scale.linear()
 				    .range([height, 0]);
 
